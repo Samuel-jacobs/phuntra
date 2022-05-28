@@ -1,0 +1,124 @@
+:root {
+	--primary: #011f4c;
+	--secondary: #002d82;
+	--orange: #e93c05;
+}
+.carousel-item img {
+	height: 50vh;
+	object-fit: cover;
+	filter: brightness(40%);
+}
+.carousel-caption {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+}
+.banner-links {
+	display: flex;
+}
+.banner-links a {
+	display: block;
+}
+
+#service-main {
+	padding: 30px 10px;
+}
+.service-main-item  p{
+	color: var(--primary);
+	font-size: 0.8rem;
+}
+
+#service-list {
+	padding: 30px 10px;
+}
+.service-list-wrapper {
+	border: 0.3px solid var(--orange);
+	padding: 30px 10px;
+}
+.service-list-wrapper h4 {
+	margin-bottom: 20px;
+	border-left: 2px solid var(--orange);
+	padding-left: 10px;
+}
+.service-list-item {
+	background-color: #fcf7f5;
+	margin-bottom: 10px;
+}
+.service-list-item:hover {
+	background-color: var(--orange);
+	transition: background-color 1s ease-in;
+	cursor: pointer;
+}
+.service-list-item:hover p {
+	color: white;
+}
+.service-list-item p {
+	padding: 10px;
+	color: var(--primary);
+	font-weight: bold;
+	font-size: smaller;
+}
+
+#download {
+	padding: 30px 10px;
+}
+.download-wrapper {
+	border: 0.3px solid #e8a08a;
+	padding: 30px 10px;
+}
+.download-wrapper h4 {
+	margin-bottom: 20px;
+	border-left: 2px solid var(--orange);
+	padding-left: 10px;
+}
+.download-item {
+	background-color: #fcf7f5;
+	margin-bottom: 10px;
+}
+.download-item p {
+	padding: 10px;
+	color: var(--orange);
+	font-size: small;
+	font-weight: bold;
+}
+
+.download-item:hover {
+	background-color: var(--orange);
+	transition: background-color 1s ease-in;
+	cursor: pointer;
+}
+.download-item:hover p {
+	color: white;
+}
+
+#service-desc {
+	padding: 30px 10px;
+}
+.service-desc-image {
+	padding: 10px;
+	background-color: lightgray;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.service-desc-image img{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+.service-desc-item {
+	text-align: center;
+	margin-top: 20px;
+}
+.service-desc-item:hover .service-desc-image {
+	background-color: var(--orange);
+	transition: background-color 0.5s ease-in;
+}
+.service-desc-main {
+	padding: 20px;
+}
+.service-desc-main p {
+	color: var(--primary);
+}
+
